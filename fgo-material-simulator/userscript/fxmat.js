@@ -12,16 +12,5 @@
 
 (function() {
     'use strict';
-    const style = document.createElement('style');
-    style.textContent = `
-    .icon{
-        max-height:73px !important;
-    }
-    .box-chaldea{
-        margin:2px !important;
-    }
-    .white{
-        box-sizing:border-box !important;
-    }`;
-    document.head.append(style);
+    document.head.insertAdjacentHTML('beforeend','<style>.icon{max-height:73px !important;}.box-chaldea{margin:2px !important;}.white{box-sizing:border-box !important;}</style>');
 })();

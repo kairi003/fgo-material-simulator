@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         fxmat
-// @namespace    https://github.com/kairi003/
+// @namespace    https://raw.githubusercontent.com/kairi003/fgo-material-simulator/master/fgo-material-simulator/userscript/
 // @version      1.1
 // @description  Fix FGO Material Simulater
 // @author       kairi_003

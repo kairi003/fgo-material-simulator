@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         syncmat
-// @namespace    https://raw.githubusercontent.com/kairi003/fgo-material-simulator/master/fgo-material-simulator/userscript/
-// @version      1.2
+// @namespace    https://github.com/kairi003/fgo-material-simulator
+// @version      1.4
 // @description  Sync FGO Material Simulater
-// @author       kairi_003
+// @author       kairi003
 // @match        http://fgosimulator.webcrow.jp/Material/
-// @updateURL    https://raw.githubusercontent.com/kairi003/fgo-material-simulator/master/fgo-material-simulator/userscript/syncmat.js
-// @downloadURL  https://raw.githubusercontent.com/kairi003/fgo-material-simulator/master/fgo-material-simulator/userscript/syncmat.js
+// @updateURL    https://raw.githubusercontent.com/kairi003/fgo-material-simulator/master/userscript/syncmat.js
+// @downloadURL  https://raw.githubusercontent.com/kairi003/fgo-material-simulator/master/userscript/syncmat.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==

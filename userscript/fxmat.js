@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         fxmat
-// @namespace    https://raw.githubusercontent.com/kairi003/fgo-material-simulator/master/fgo-material-simulator/userscript/
-// @version      1.1
+// @namespace    https://github.com/kairi003/fgo-material-simulator
+// @version      1.4
 // @description  Fix FGO Material Simulater
-// @author       kairi_003
+// @author       kairi003
 // @match        http://fgosimulator.webcrow.jp/Material/
-// @updateURL    https://raw.githubusercontent.com/kairi003/fgo-material-simulator/master/fgo-material-simulator/userscript/fxmat.js
-// @downloadURL  https://raw.githubusercontent.com/kairi003/fgo-material-simulator/master/fgo-material-simulator/userscript/fxmat.js
+// @updateURL    https://raw.githubusercontent.com/kairi003/fgo-material-simulator/master/userscript/fxmat.js
+// @downloadURL  https://raw.githubusercontent.com/kairi003/fgo-material-simulator/master/userscript/fxmat.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==

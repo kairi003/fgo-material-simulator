@@ -1,0 +1,1 @@
+javascript:document.head.insertAdjacentHTML('beforeend','<style>.icon{max-height:73px}.box-chaldea{margin:2px;}.white{box-sizing:border-box;}</style>')

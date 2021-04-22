@@ -1,0 +1,1 @@
+javascript:fetch('https://script.google.com/macros/s/AKfycbxyg5oN2HuWqECCzcOkupUh2Heg0TvzScQrCGNpTBPl7JQ_B1o/exec').then(r=>r.json()).then(d=>Object.assign(localStorage,d)&alert('LOAD: '+new Date(d.date))&location.reload())

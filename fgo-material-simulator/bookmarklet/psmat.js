@@ -1,0 +1,1 @@
+javascript:localStorage.date=new Date().toJSON();fetch('https://script.google.com/macros/s/AKfycbxyg5oN2HuWqECCzcOkupUh2Heg0TvzScQrCGNpTBPl7JQ_B1o/exec',{method:"POST",mode:'no-cors',headers:{"Content-Type":"application/json"},body:JSON.stringify(localStorage)}).then(r=>alert('PUSH: '+new Date(localStorage.date)))

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         syncmat
 // @namespace    https://github.com/kairi003/
-// @version      1.6
+// @version      1.7
 // @description  Sync FGO Material Simulater
 // @author       kairi003
 // @match        http://fgosimulator.webcrow.jp/Material/
@@ -11,7 +11,7 @@
 // @run-at       document-start
 // ==/UserScript==
 
-(function() {
+{
   'use strict';
   const ldmat = e=>{fetch('https://script.google.com/macros/s/AKfycbxyg5oN2HuWqECCzcOkupUh2Heg0TvzScQrCGNpTBPl7JQ_B1o/exec').then(r=>r.json()).then(d=>Object.assign(localStorage,d)&alert('LOAD: '+new Date(d.date))&location.reload());};
   const psmat = e=>{localStorage.date=new Date().toJSON();fetch('https://script.google.com/macros/s/AKfycbxyg5oN2HuWqECCzcOkupUh2Heg0TvzScQrCGNpTBPl7JQ_B1o/exec',{method:"POST",mode:'no-cors',headers:{"Content-Type":"application/json"},body:JSON.stringify(localStorage)}).then(r=>alert('PUSH: '+new Date(localStorage.date)));};
@@ -36,4 +36,4 @@
   } else {
     main();
   }
-})();
+}

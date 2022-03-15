@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         syncmat
 // @namespace    https://github.com/kairi003/
-// @version      1.8
+// @version      1.9
 // @description  Sync FGO Material Simulater
 // @author       kairi003
 // @match        http://fgosimulator.webcrow.jp/Material/

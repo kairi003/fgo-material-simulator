@@ -6,8 +6,8 @@
 // @author       kairi003
 // @match        http://fgosimulator.webcrow.jp/Material/
 // @match        https://fgosim.github.io/Material/
-// @updateURL    https://github.com/kairi003/fgo-material-simulator/raw/master/userscript/syncmat.user.js
-// @downloadURL  https://github.com/kairi003/fgo-material-simulator/raw//master/userscript/syncmat.user.js
+// @updateURL    https://github.com/kairi003/fgo-matsim-script/raw/master/userscript/syncmat.user.js
+// @downloadURL  https://github.com/kairi003/fgo-matsim-script/raw//master/userscript/syncmat.user.js
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
